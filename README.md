@@ -55,5 +55,4 @@ Feel free to fork the repository and submit pull requests for enhancements or bu
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Author
-Created by **Your Name**. For inquiries, email at [ramtechnow@gmail.com](ramtechnow@gmail.com).
-```
+Created by **Shriram**. For inquiries, email at [ramtechnow@gmail.com](ramtechnow@gmail.com).
