@@ -1,58 +1,75 @@
-# Automated Project Downloader and Extractor
+# Automated Project Downloader & Extractor
 
-## Description
-This project provides a **fully automated solution** for downloading and extracting ZIP files from a portfolio website. It uses **Selenium WebDriver** for automation and **Python’s Tkinter** module to offer a GUI for user interaction. The extracted files are managed in a specified folder (`D:\test`), ensuring seamless handling and tracking of new and modified files.
+## 📌 Description
+This project automates the process of **navigating a portfolio website, selecting projects, downloading ZIP files from GitHub, extracting them**, and tracking newly added or modified files. It uses **Selenium for automation** and **Tkinter for GUI interaction**, ensuring an effortless workflow.
 
-## Features
-- **Automated Web Navigation**: Uses Selenium to interact with the portfolio website, select projects, and download ZIP files.
-- **ZIP File Extraction**: Extracts downloaded ZIP files into the `D:\test` folder.
-- **File Update Tracking**: Detects and reports new or modified files in the target folder after extraction.
-- **GUI Integration**: Provides a simple Tkinter-based interface for initiating the automation and monitoring progress.
-- **Error Handling**: Displays meaningful messages in case of failures.
+## ✨ Features
+- **Fully Automated Web Navigation** (Selenium-based)
+- **ZIP File Download & Extraction** (`D:\test` folder)
+- **Automated Dependency Installation** (via `setup.bat`)
+- **Real-Time File Tracking** (detects newly added or updated files)
 
-## Requirements
-- Python 3.8+
-- **Dependencies**:
-  - `selenium`: For web automation
-  - `tkinter`: For GUI
-  - `zipfile`: To handle ZIP file extraction
-- **Browser**:
-  - Google Chrome (latest version)
-  - ChromeDriver (compatible with your Chrome version)
+## 🛠 Requirements
+- **Python 3.8+**
+- **Google Chrome** (latest version)
+- **ChromeDriver** (matching your Chrome version)
+- **Required Python Packages**:
+  - `selenium` (Web Automation)
+  - `zipfile` (ZIP Extraction)
+  - `tkinter` (Graphical Interface)
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/project-downloader.git
-   cd project-downloader
-   ```
-2. Install dependencies:
-   ```bash
-   pip install selenium
-   ```
-3. Ensure ChromeDriver is installed and added to your PATH:
-   - [Download ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
+## 🚀 Installation Guide
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/yourusername/project-downloader.git
+cd project-downloader
+```
 
-## Usage
-1. Run the script:
-   ```bash
-   python automated_project_downloader.py
-   ```
-2. The GUI will appear. Click **Start Automation** to begin the process.
-3. All files will be downloaded and extracted into the `D:\test` folder. The GUI will display a "Process Completed!" message upon completion.
+### Step 2: Install Dependencies (Automated)
+Run the batch file to install required pip packages:
+```bash
+setup.bat
+```
+OR install manually:
+```bash
+pip install selenium
+```
 
-## Project Workflow
-1. **Navigate to the Portfolio Website**: Opens the portfolio page.
-2. **Click Projects**: Interacts with project links using Selenium.
-3. **Download ZIP Files**: Clicks the `<>code` button and downloads ZIP files.
-4. **Extract Files**: Unzips files into `D:\test`, ensuring new or modified files are tracked.
-5. **Track Updates**: Reports new additions or modifications to extracted files.
+### Step 3: Setup ChromeDriver
+Download the compatible version:
+- [ChromeDriver Download](https://sites.google.com/a/chromium.org/chromedriver/)
+- Place `chromedriver.exe` in the **same folder** as the script OR ensure it's accessible via PATH.
 
-## Contributing
-Feel free to fork the repository and submit pull requests for enhancements or bug fixes. All contributions are welcome!
+### Step 4: Run the Automation
+Start the automation by running:
+```bash
+python automated_project_downloader.py
+```
+- The GUI will appear.
+- Click **Start Automation**, and the process will handle everything automatically.
+- Once both projects are processed, the label will display `"Process Completed!"`.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+### Step 5: Verify Extracted Files
+All files will be **automatically extracted** into `D:\test`  
+Check the folder to confirm new files.
 
-## Author
-Created by **Shriram**. For inquiries, email at [ramtechnow@gmail.com](ramtechnow@gmail.com).
+## 🔄 Project Workflow
+1. **Navigate to Portfolio Website** → Opens the page.
+2. **Click "Projects"** → Selects projects.
+3. **Download ZIP Files** → Navigates to GitHub, clicks `<code>` and downloads ZIP.
+4. **Extract Files** → Automatically extracts files into `D:\test`.
+5. **Track New Files** → Detects updates.
+
+## 🤝 Contributing
+- Fork the repository.
+- Submit pull requests.
+- Open issues for improvements!
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+## 👤 Author
+Created by **Shriram M G**  
+Feel free to contact at [https://portfolio-f7afe.web.app/](mailto:ramtechnow@gmail.com).
+
+
