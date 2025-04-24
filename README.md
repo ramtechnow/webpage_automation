@@ -21,8 +21,8 @@ This project automates the process of **navigating a portfolio website, selectin
 ## 🚀 Installation Guide
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/project-downloader.git
-cd project-downloader
+gh repo clone ramtechnow/webpage_automation
+cd webpage_automation
 ```
 
 ### Step 2: Install Dependencies (Automated)
@@ -71,5 +71,3 @@ This project is licensed under the **MIT License**.
 ## 👤 Author
 Created by **Shriram M G**  
 Feel free to contact at [https://portfolio-f7afe.web.app/](mailto:ramtechnow@gmail.com).
-
-
